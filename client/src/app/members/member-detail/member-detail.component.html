@@ -30,4 +30,24 @@
             </div>
         </div>
     </div>
+    <div class="col-8">
+        <tabset class="memeber-tabset">
+            <tab heading="About" {{memebr.KnownAs}}>
+            <h4>Description</h4>
+            <P>{{member.introduction}}</P>
+            <h4>Looking For</h4>
+            <P>{{member.lookingFor}}</P>
+            </tab>
+            <tab heading="Interests">
+                <h4>Interests</h4>
+                <P>{{member.interests}}</P>
+            </tab>
+            <tab heading="Photos">
+                <P>Photos will go here</P>
+            </tab>
+            <tab heading="Messages">
+                <P>Messages will go here </P>
+            </tab>
+        </tabset>
+    </div>
 </div>

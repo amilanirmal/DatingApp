@@ -9,7 +9,7 @@ import { MembersService } from 'src/app/_services/members.service';
   styleUrls: ['./member-detail.component.css']
 })
 export class MemberDetailComponent implements OnInit{
-  member: Member | undefined;
+  member : Member | undefined;
   /**
    *
    */
